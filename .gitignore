@@ -13,6 +13,7 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+.chkpconfig.code-workspace
 
 # Logs
 *.log

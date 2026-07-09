@@ -1,0 +1,16 @@
+# Secrets — never read into context
+.env
+.env.*
+!.env.example
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+
+# Logs
+*.log
+logs/
