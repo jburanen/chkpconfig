@@ -31,6 +31,10 @@ chkpconfig is a planned web-based tool (browser UI, Docker-deployed via a single
 - Clish config backup with configurable version retention.
 - Patch installation via CDT functions, plus automated SCP/clish workflows for management servers.
 
+## .gitignore maintenance
+
+A general-purpose `.gitignore` exists covering env files, OS/editor cruft, and common Node/Python/Docker artifacts. As the actual tech stack is chosen and new tools/frameworks are introduced, update `.gitignore` to match (e.g. add framework-specific build output, package manager lockfile caches, language-specific artifacts) rather than letting generated files leak into commits.
+
 ## Commit convention
 
 When creating git commits in this repository, always include Claude as a co-author:
